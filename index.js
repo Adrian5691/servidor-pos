@@ -272,7 +272,7 @@ app.get('/api/ventas/caja', (req, res) => {
     res.json(rows);
   });
 });
-
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
