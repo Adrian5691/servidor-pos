@@ -5,7 +5,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const app = express();
-const PORT = 3000;
 const JWT_SECRET = 'clave_secreta_pos_2026';
 
 app.use(express.json());
